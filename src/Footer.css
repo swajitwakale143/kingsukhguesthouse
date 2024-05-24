@@ -1,0 +1,116 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 60px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    padding: 30px;
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .footer-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  .footer-section h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #ffd700;
+  }
+  
+  .footer-section p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 12px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #ffd700;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 24px;
+  }
+  
+  .book-now {
+    padding: 12px 24px;
+    background-color: #ffd700;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .book-now:hover {
+    background-color: #ffcc00;
+  }
+  
+  .footer-bottom {
+    background-color: #222;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-section {
+      padding: 20px;
+    }
+  
+    .footer-section h2 {
+      font-size: 20px;
+    }
+  
+    .footer-section p {
+      font-size: 14px;
+    }
+  
+    .social-links a {
+      font-size: 20px;
+    }
+  
+    .book-now {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  }
+  
